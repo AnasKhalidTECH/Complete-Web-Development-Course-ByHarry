@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarks Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Bookmarks</h1>
+    <h2>Primary Bookmarks</h2>
+    <ol>
+      <li><a target="_blank" href="https://www.google.com">Visit Google</a></li>
+      <li>
+        <a target="_blank" href="https://www.youtube.com">Visit Youtube</a>
+      </li>
+      <li><a target="_blank" href="https://www.quora.com">Visit Quora</a></li>
+      <li>
+        <a target="_blank" href="https://www.codewithharry.com"
+          >Visit Code With Harry</a
+        >
+      </li>
+    </ol>
+    <h2>Secondary Bookmarks</h2>
+    <ol>
+      <li>
+        <a target="_blank" href="https://www.stackoverflow.com"
+          >Visit Stack Overflow</a
+        >
+      </li>
+      <li>
+        <a target="_blank" href="https://www.wikipedia.com">Visit Wikipedia</a>
+      </li>
+    </ol>
+
+    <table>
+      <caption>
+        Employees List
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>Qualification</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Muhammad Anas</td>
+          <td>Senior Developer</td>
+          <td>Fullstack Developer</td>
+        </tr>
+        <tr>
+          <td>Muhammad Amin</td>
+          <td>Backend Developer</td>
+          <td>PHP Developer</td>
+        </tr>
+        <tr>
+          <td>Muhammad Abid</td>
+          <td>Project Manager</td>
+          <td>DevOps Engineer</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Form to apply for a job</h1>
+
+    <form action="get">
+      <div>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+          autofocus
+        />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age"  />
+      </div>
+      <div>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female" value="female" />
+      </div>
+      <div>
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+      </div>
+      <div>
+        <label for="comment">Comments:</label>
+        <br>
+        <textarea name="comment" id="comment" rows="4" cols="50">Write your comments here</textarea>
+      </div>
+      <div>
+        <select name="designation" id="designation">
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Fullstack Developer</option>
+        </select>
+      </div>
+    </form>
+
+    <!-- quick quiz1 -->
+
+    <form action="">
+        <div>
+            <label for="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+          autofocus
+        />
+        </div>
+        <div>
+            <label for="city">City:</label>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Enter your city"
+          autofocus
+        />
+        </div>
+        <div>
+            <label for="postalcode">Postalcode:</label>
+        <input
+          type="text"
+          name="postalcode"
+          id="postalcode"
+          placeholder="Enter your postalcode"
+          autofocus
+        />
+        </div>
+    </form>
+
+    <br>
+    <!-- Exercise1 -->
+
+    <video src="sample data/1.mp4" controls width="500"></video>
+    <video src="sample data/2.mp4" controls width="500"></video>
+    <video src="sample data/3.mp4" controls width="500"></video>
+    <video src="sample data/4.mp4" controls width="500"></video>
+    <audio src="sample data/1.mp3" controls></audio>
+    <audio src="sample data/2.mp3" controls></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
