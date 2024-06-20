@@ -1,0 +1,24 @@
+:root{
+    --backgroundclr1: #c99b1f;
+    --backgroundclr2: #748a5e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav{
+    border: 1px solid black;
+    background-color: var(--backgroundclr1);
+}
+nav ul{
+    display: flex;
+    /* padding: 20px; */
+}
+
+nav ul li{
+    padding: 20px 30px;
+    /* border: 1px solid black; */
+}
